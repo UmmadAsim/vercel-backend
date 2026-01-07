@@ -24,6 +24,7 @@ app.get("/todo", fetchtodo)
 app.put("/todo/:id", updatetodo)
 app.delete("/todo/:id", deletetodo)
 
-app.listen(process.env.PORT || 8080, () => {
-  console.log(`Server running on port ${process.env.PORT || 8080}`);
-});
+// app.listen(process.env.PORT || 8080, () => {
+//   console.log(`Server running on port ${process.env.PORT || 8080}`);
+// });
+export default app
